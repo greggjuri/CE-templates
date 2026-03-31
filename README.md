@@ -74,27 +74,27 @@ cp .claude/commands/default-execute-prp.md .claude/commands/execute-prp.md
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     CLAUDE.AI                                │
-│                                                              │
+│                     CLAUDE.AI                               │
+│                                                             │
 │  1. Discuss feature requirements                            │
-│  2. Create init-{feature}.md spec                          │
+│  2. Create init-{feature}.md spec                           │
 │  3. Review architecture decisions                           │
 │  4. Review generated PRPs                                   │
 │  5. Troubleshoot blockers                                   │
-│                                                              │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
                               │
                               │ init spec
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                     CLAUDE CODE                              │
-│                                                              │
-│  1. /generate-prp initials/init-{feature}.md               │
-│  2. /execute-prp prps/prp-{feature}.md                     │
+│                     CLAUDE CODE                             │
+│                                                             │
+│  1. /generate-prp initials/init-{feature}.md                │
+│  2. /execute-prp prps/prp-{feature}.md                      │
 │  3. Run tests, fix issues                                   │
 │  4. Deploy                                                  │
 │  5. Git operations                                          │
-│                                                              │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
